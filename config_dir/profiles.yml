@@ -1,0 +1,16 @@
+dbt-snowflake-connection: # this needs to match the profile: in your dbt_project.yml file
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: glrifyx-bxb49266
+      user: DBT_USER
+      password: dbt_USER1
+
+      role: DBT_TRANSFORM
+
+      database: DS559_DATA
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
+      threads: 1                         # number of models to run at a time, we'll start with 1
+      client_session_keep_alive: False   # do not keep snowflake session open after a run (save credits)

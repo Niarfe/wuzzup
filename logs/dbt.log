@@ -1,0 +1,144 @@
+
+
+============================== 2023-04-25 19:37:13.722423 | 390045e8-5a3b-4a5a-a7d7-effa4b9591e1 ==============================
+[0m19:37:13.722423 [info ] [MainThread]: Running with dbt=1.4.6
+[0m19:37:13.723220 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/praedator/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m19:37:13.723306 [debug] [MainThread]: Tracking: tracking
+[0m19:37:13.733282 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c69070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c6ea90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c9b4f0>]}
+[0m19:37:13.853349 [debug] [MainThread]: Executing "git --help"
+[0m19:37:13.865928 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:37:13.866403 [debug] [MainThread]: STDERR: "b''"
+[0m19:37:13.866848 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e30520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e12b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e330a0>]}
+[0m19:37:13.867233 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-04-25 19:37:39.552727 | d99ced59-6a1b-46c3-bc4e-bd3d2c44cc01 ==============================
+[0m19:37:39.552727 [info ] [MainThread]: Running with dbt=1.4.6
+[0m19:37:39.553479 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/praedator/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m19:37:39.553583 [debug] [MainThread]: Tracking: tracking
+[0m19:37:39.562529 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108845070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10884aa90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108861700>]}
+[0m19:37:39.685015 [debug] [MainThread]: Executing "git --help"
+[0m19:37:39.697420 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:37:39.697875 [debug] [MainThread]: STDERR: "b''"
+[0m19:37:39.705653 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m19:37:39.706443 [debug] [MainThread]: Using snowflake connection "debug"
+[0m19:37:39.706598 [debug] [MainThread]: On debug: select 1 as id
+[0m19:37:39.706750 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:37:46.651273 [debug] [MainThread]: SQL status: SUCCESS 1 in 7 seconds
+[0m19:37:46.654205 [debug] [MainThread]: On debug: Close
+[0m19:37:46.808380 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a517e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ad90a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d38340>]}
+[0m19:37:46.809212 [debug] [MainThread]: Flushing usage events
+[0m19:37:47.227049 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2023-04-25 19:37:52.962789 | c23864d9-685d-4e44-90b2-5b820bde3b01 ==============================
+[0m19:37:52.962789 [info ] [MainThread]: Running with dbt=1.4.6
+[0m19:37:52.964033 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/praedator/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'indirect_selection': 'eager', 'resource_types': [], 'which': 'build', 'rpc_method': 'build'}
+[0m19:37:52.964140 [debug] [MainThread]: Tracking: tracking
+[0m19:37:52.964366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079c4dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079c4e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079d9190>]}
+[0m19:37:52.971176 [debug] [MainThread]: checksum: 0325e47f1211ebbdb24627f81d8289d705fdb573380364d07ab35982cb3d57cd, vars: {}, profile: None, target: None, version: 1.4.6
+[0m19:37:52.971501 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m19:37:52.971666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c23864d9-685d-4e44-90b2-5b820bde3b01', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079d92e0>]}
+[0m19:37:53.307055 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m19:37:53.313823 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m19:37:53.350343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c23864d9-685d-4e44-90b2-5b820bde3b01', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107bba970>]}
+[0m19:37:53.353575 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c23864d9-685d-4e44-90b2-5b820bde3b01', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1079d90a0>]}
+[0m19:37:53.353774 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 306 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m19:37:53.353936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c23864d9-685d-4e44-90b2-5b820bde3b01', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b75fa0>]}
+[0m19:37:53.354624 [info ] [MainThread]: 
+[0m19:37:53.355487 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m19:37:53.356028 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DS559_DATA'
+[0m19:37:53.363419 [debug] [ThreadPool]: Using snowflake connection "list_DS559_DATA"
+[0m19:37:53.363573 [debug] [ThreadPool]: On list_DS559_DATA: /* {"app": "dbt", "dbt_version": "1.4.6", "profile_name": "dbt-snowflake-connection", "target_name": "dev", "connection_name": "list_DS559_DATA"} */
+show terse schemas in database DS559_DATA
+    limit 10000
+[0m19:37:53.363690 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:37:54.065872 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01abde99-0001-9adc-0020-2a0700018032
+[0m19:37:54.066150 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 002043 (02000): SQL compilation error:
+Object does not exist, or operation cannot be performed.
+[0m19:37:54.066390 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m19:37:54.066522 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m19:37:54.066732 [debug] [ThreadPool]: On list_DS559_DATA: Close
+[0m19:37:54.210766 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m19:37:54.211238 [debug] [MainThread]: Connection 'list_DS559_DATA' was properly closed.
+[0m19:37:54.211446 [info ] [MainThread]: 
+[0m19:37:54.211708 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 0.86 seconds (0.86s).
+[0m19:37:54.212075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b67280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107bcd880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107fdb940>]}
+[0m19:37:54.212341 [debug] [MainThread]: Flushing usage events
+[0m19:37:54.600328 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "DS559_DATA"
+  Database Error
+    002043 (02000): SQL compilation error:
+    Object does not exist, or operation cannot be performed.
+
+
+============================== 2023-04-25 19:38:06.452052 | b4972f37-0d5e-4b44-b290-b775cbbdb5e9 ==============================
+[0m19:38:06.452052 [info ] [MainThread]: Running with dbt=1.4.6
+[0m19:38:06.453168 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/praedator/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m19:38:06.453289 [debug] [MainThread]: Tracking: tracking
+[0m19:38:06.453530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045e5e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045e5ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045fb220>]}
+[0m19:38:06.460212 [debug] [MainThread]: checksum: 0325e47f1211ebbdb24627f81d8289d705fdb573380364d07ab35982cb3d57cd, vars: {}, profile: None, target: None, version: 1.4.6
+[0m19:38:06.474633 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m19:38:06.474793 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m19:38:06.478119 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b4972f37-0d5e-4b44-b290-b775cbbdb5e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10475d0d0>]}
+[0m19:38:06.481411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b4972f37-0d5e-4b44-b290-b775cbbdb5e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1046a8970>]}
+[0m19:38:06.481591 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 306 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m19:38:06.481744 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b4972f37-0d5e-4b44-b290-b775cbbdb5e9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1046a8a00>]}
+[0m19:38:06.482405 [info ] [MainThread]: 
+[0m19:38:06.483263 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m19:38:06.483779 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_DS559_DATA'
+[0m19:38:06.491561 [debug] [ThreadPool]: Using snowflake connection "list_DS559_DATA"
+[0m19:38:06.491710 [debug] [ThreadPool]: On list_DS559_DATA: /* {"app": "dbt", "dbt_version": "1.4.6", "profile_name": "dbt-snowflake-connection", "target_name": "dev", "connection_name": "list_DS559_DATA"} */
+show terse schemas in database DS559_DATA
+    limit 10000
+[0m19:38:06.491816 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:38:07.374889 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01abde9a-0001-9b23-0020-2a070001f00a
+[0m19:38:07.375174 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 002043 (02000): SQL compilation error:
+Object does not exist, or operation cannot be performed.
+[0m19:38:07.375399 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_schemas
+[0m19:38:07.375527 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m19:38:07.375741 [debug] [ThreadPool]: On list_DS559_DATA: Close
+[0m19:38:07.523495 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m19:38:07.524047 [debug] [MainThread]: Connection 'list_DS559_DATA' was properly closed.
+[0m19:38:07.524324 [info ] [MainThread]: 
+[0m19:38:07.524723 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 1.04 seconds (1.04s).
+[0m19:38:07.525244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1046a8a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10475d130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d1fa90>]}
+[0m19:38:07.525730 [debug] [MainThread]: Flushing usage events
+[0m19:38:07.928872 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Database error while listing schemas in database "DS559_DATA"
+  Database Error
+    002043 (02000): SQL compilation error:
+    Object does not exist, or operation cannot be performed.
+
+
+============================== 2023-04-25 19:49:42.075033 | 18c6e67e-3efc-4c65-88b9-be3568cec281 ==============================
+[0m19:49:42.075033 [info ] [MainThread]: Running with dbt=1.4.6
+[0m19:49:42.075914 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/praedator/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m19:49:42.076025 [debug] [MainThread]: Tracking: tracking
+[0m19:49:42.085628 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111cf70d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111ccab50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111ce9550>]}
+[0m19:49:43.314463 [debug] [MainThread]: Executing "git --help"
+[0m19:49:43.325578 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:49:43.326047 [debug] [MainThread]: STDERR: "b''"
+[0m19:49:43.330211 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m19:49:43.330852 [debug] [MainThread]: Using snowflake connection "debug"
+[0m19:49:43.330973 [debug] [MainThread]: On debug: select 1 as id
+[0m19:49:43.331136 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:49:45.400383 [debug] [MainThread]: SQL status: SUCCESS 1 in 2 seconds
+[0m19:49:45.403150 [debug] [MainThread]: On debug: Close
+[0m19:49:45.539657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11346da90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113d21fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113cf7790>]}
+[0m19:49:45.540381 [debug] [MainThread]: Flushing usage events
+[0m19:49:46.044231 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2023-04-25 19:49:55.355286 | ebffc0ed-bc01-4dc8-9463-c282b0066400 ==============================
+[0m19:49:55.355286 [info ] [MainThread]: Running with dbt=1.4.6
+[0m19:49:55.356007 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/praedator/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': True, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m19:49:55.356098 [debug] [MainThread]: Tracking: tracking
+[0m19:49:55.367769 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042b9df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042be400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042dd550>]}
+[0m19:49:55.368593 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/praedator/.dbt
+[0m19:49:55.368993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042be400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042b9970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042b9700>]}
+[0m19:49:55.369129 [debug] [MainThread]: Flushing usage events
